@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "Curso de Bootstrap4 - Fazt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "franz",
+  "license": "ISC"
+}
