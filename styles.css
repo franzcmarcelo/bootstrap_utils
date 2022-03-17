@@ -1,0 +1,59 @@
+body {
+    background-color: #dee8ee;
+}
+
+hr {
+    background-color: #828c91;
+    margin: 30px 0 50px;
+}
+
+.container-menu {
+    width: 100vw;
+    padding: 20px;
+    background-color: #161B22;
+}
+.container-menu .title {
+    text-align: center;
+    color: aliceblue;
+}
+.container-menu .list-topics {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template: repeat(6, 1fr) / minmax(80px, 1fr) minmax(180px, 1fr);
+    gap: 24px;
+    /* container */
+    justify-content: center;
+    align-content: start;
+    /* items */
+    justify-items: center;
+    align-items: center;
+}
+.container-menu .list-topics .themes {
+    justify-self: start;
+}
+
+.container-menu .list-topics div:nth-child(2n) {
+    padding: 9px 9px 0 0;
+    border: 1px dashed rgb(93, 74, 136);
+    border-left: 0;
+    border-radius: 0 18px 18px 0;
+}
+
+
+.container-menu .list-topics .part a {
+    font-size: 18px;
+    color: rgb(189, 210, 230);
+    border: 1px dashed rgb(93, 74, 136);
+    border-radius: 8px;
+    padding: 4px;
+    text-decoration: none;
+}
+.container-menu .list-topics .part a:hover {
+    border: 1px solid rgb(106, 86, 151);
+    color: aliceblue;
+}
+.container-menu .list-topics .themes p {
+    color: rgb(189, 210, 230);
+
+}
